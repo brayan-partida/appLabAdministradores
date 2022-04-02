@@ -5,6 +5,8 @@ import java.io.Serializable;
 import org.apache.catalina.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface userRepository extends JpaRepository<User, Serializable> {
+import com.example.applab.model.user;
+
+public interface userRepository extends JpaRepository<user, Serializable> {
 
 }
